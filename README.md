@@ -1,7 +1,5 @@
 # Mini Contacts + Notes
 
-A modern CRM application built with Next.js and Supabase for managing contacts and their associated notes. Features real-time updates, authentication, and a clean, responsive UI.
-
 ### Prerequisites
 
 - Node.js 18+ and npm
