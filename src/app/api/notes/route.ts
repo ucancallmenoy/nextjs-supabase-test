@@ -27,6 +27,7 @@ export async function GET(request: NextRequest) {
       .from("notes")
       .select("*")
       .eq("contact_id", contactId)
+      .eq("user_id", user.id)
       .order("created_at", { ascending: false });
 
     if (error) {

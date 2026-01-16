@@ -17,6 +17,7 @@ export async function GET() {
     const { data, error } = await supabase
       .from("contacts")
       .select("*")
+      .eq("user_id", user.id)
       .order("created_at", { ascending: false });
 
     if (error) {
