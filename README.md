@@ -310,7 +310,7 @@ npm run lint
 2. Data is removed from the database
 3. UI updates optimistically via cache
 
-## 🔍 Important Concepts
+## Important Concepts
 
 ### TanStack Query Benefits
 - Automatic caching of data
